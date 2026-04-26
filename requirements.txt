@@ -1,0 +1,13 @@
+﻿# Purpose: List the Python packages needed to run and test the project.
+# Design: Keep dependencies small and explicit for a classroom-sized ML app.
+# Workflow: Install these packages into a virtual environment before running the app or tests.
+#
+# Michael Garcia
+# michael@mandedesign.studio
+# https://mandedesign.studio
+#
+# License: MIT
+
+pandas
+scikit-learn
+pytest

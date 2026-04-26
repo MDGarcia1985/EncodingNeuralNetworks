@@ -1,0 +1,16 @@
+﻿# Purpose: Exclude local environments, caches, and machine-specific files from version control.
+# Design: Keep project source, tests, docs, and data paths visible while ignoring generated clutter.
+# Workflow: Git reads these patterns before staging files and skips matching local artifacts.
+#
+# Michael Garcia
+# michael@mandedesign.studio
+# https://mandedesign.studio
+#
+# License: MIT
+
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+Thumbs.db

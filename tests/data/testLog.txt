@@ -1,0 +1,708 @@
+﻿
+Test 1
+Date: 04/25/2026
+Time: 07:37
+Passed: Yes
+Failed: No
+
+Results:
+Expected features: ['Pclass', 'Sex', 'Age', 'SibSp']
+Actual features: ['Pclass', 'Sex', 'Age', 'SibSp']
+
+Test 2
+Date: 04/25/2026
+Time: 07:37
+Passed: Yes
+Failed: No
+
+Results:
+Dataset path: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+X_train shape: (712, 4)
+X_test shape: (179, 4)
+y_train shape: (712,)
+y_test shape: (179,)
+Sex classes: ['female', 'male']
+
+Test 3
+Date: 04/25/2026
+Time: 07:37
+Passed: Yes
+Failed: No
+
+Results:
+Project root: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks
+Data directory: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data
+Titanic dataset: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+Dataset exists: True
+
+Test 4
+Date: 04/25/2026
+Time: 07:37
+Passed: Yes
+Failed: No
+
+Results:
+Passenger shape: (1, 4)
+Passenger columns: ['Pclass', 'Sex', 'Age', 'SibSp']
+Passenger values: [{'Pclass': 3, 'Sex': 1, 'Age': 25, 'SibSp': 0}]
+
+Test 5
+Date: 04/25/2026
+Time: 07:37
+Passed: Yes
+Failed: No
+
+Results:
+Prediction: 0
+Allowed predictions: [0, 1]
+
+Test 6
+Date: 04/25/2026
+Time: 07:37
+Passed: Yes
+Failed: No
+
+Results:
+Decision Tree model: DecisionTreeClassifier
+Accuracy: 0.8101
+Prediction count: 179
+
+Test 7
+Date: 04/25/2026
+Time: 07:37
+Passed: Yes
+Failed: No
+
+Results:
+KNN model: KNeighborsClassifier
+Accuracy: 0.7821
+Prediction count: 179
+
+Test 8
+Date: 04/25/2026
+Time: 07:37
+Passed: Yes
+Failed: No
+
+Results:
+Feature count: 4
+Importance count: 4
+Importance values: [('Sex', np.float64(0.6035413044274122)), ('Pclass', np.float64(0.2149289338803434)), ('Age', np.float64(0.11297321473102549)), ('SibSp', np.float64(0.06855654696121885))]
+
+Test 9
+Date: 04/25/2026
+Time: 07:37
+Passed: Yes
+Failed: No
+
+Results:
+Importance count: 4
+Importance values: [('Sex', np.float64(0.12737430167597763)), ('Pclass', np.float64(0.094413407821229)), ('Age', np.float64(0.06759776536312846)), ('SibSp', np.float64(0.03463687150837984))]
+Formatted importance: Sex: 13%  |  Pclass: 9%  |  Age: 7%  |  SibSp: 3%
+
+Test 10
+Date: 04/25/2026
+Time: 07:39
+Passed: Yes
+Failed: No
+
+Results:
+Expected features: ['Pclass', 'Sex', 'Age', 'SibSp']
+Actual features: ['Pclass', 'Sex', 'Age', 'SibSp']
+
+Test 11
+Date: 04/25/2026
+Time: 07:39
+Passed: Yes
+Failed: No
+
+Results:
+Dataset path: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+X_train shape: (712, 4)
+X_test shape: (179, 4)
+y_train shape: (712,)
+y_test shape: (179,)
+Sex classes: ['female', 'male']
+
+Test 12
+Date: 04/25/2026
+Time: 07:39
+Passed: Yes
+Failed: No
+
+Results:
+Feature count: 4
+Importance count: 4
+Importance values: [('Sex', np.float64(0.6035413044274122)), ('Pclass', np.float64(0.2149289338803434)), ('Age', np.float64(0.11297321473102549)), ('SibSp', np.float64(0.06855654696121885))]
+
+Test 13
+Date: 04/25/2026
+Time: 07:39
+Passed: Yes
+Failed: No
+
+Results:
+Importance count: 4
+Importance values: [('Sex', np.float64(0.12737430167597763)), ('Pclass', np.float64(0.094413407821229)), ('Age', np.float64(0.06759776536312846)), ('SibSp', np.float64(0.03463687150837984))]
+Formatted importance: Sex: 13%  |  Pclass: 9%  |  Age: 7%  |  SibSp: 3%
+
+Test 14
+Date: 04/25/2026
+Time: 07:39
+Passed: Yes
+Failed: No
+
+Results:
+Project root: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks
+Data directory: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data
+Titanic dataset: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+Dataset exists: True
+
+Test 15
+Date: 04/25/2026
+Time: 07:39
+Passed: Yes
+Failed: No
+
+Results:
+Passenger shape: (1, 4)
+Passenger columns: ['Pclass', 'Sex', 'Age', 'SibSp']
+Passenger values: [{'Pclass': 3, 'Sex': 1, 'Age': 25, 'SibSp': 0}]
+
+Test 16
+Date: 04/25/2026
+Time: 07:39
+Passed: Yes
+Failed: No
+
+Results:
+Prediction: 0
+Allowed predictions: [0, 1]
+
+Test 17
+Date: 04/25/2026
+Time: 07:39
+Passed: Yes
+Failed: No
+
+Results:
+Decision Tree model: DecisionTreeClassifier
+Accuracy: 0.8101
+Prediction count: 179
+
+Test 18
+Date: 04/25/2026
+Time: 07:39
+Passed: Yes
+Failed: No
+
+Results:
+KNN model: KNeighborsClassifier
+Accuracy: 0.7821
+Prediction count: 179
+
+Test 19
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Expected features: ['Pclass', 'Sex', 'Age', 'SibSp']
+Actual features: ['Pclass', 'Sex', 'Age', 'SibSp']
+
+Test 20
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Dataset path: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+X_train shape: (712, 4)
+X_test shape: (179, 4)
+y_train shape: (712,)
+y_test shape: (179,)
+Sex classes: ['female', 'male']
+
+Test 21
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Feature count: 4
+Importance count: 4
+Importance values: [('Sex', np.float64(0.6035413044274122)), ('Pclass', np.float64(0.2149289338803434)), ('Age', np.float64(0.11297321473102549)), ('SibSp', np.float64(0.06855654696121885))]
+
+Test 22
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Importance count: 4
+Importance values: [('Sex', np.float64(0.12737430167597763)), ('Pclass', np.float64(0.094413407821229)), ('Age', np.float64(0.06759776536312846)), ('SibSp', np.float64(0.03463687150837984))]
+Formatted importance: Sex: 13%  |  Pclass: 9%  |  Age: 7%  |  SibSp: 3%
+
+Test 23
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Project root: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks
+Data directory: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data
+Titanic dataset: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+Dataset exists: True
+
+Test 24
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Passenger shape: (1, 4)
+Passenger columns: ['Pclass', 'Sex', 'Age', 'SibSp']
+Passenger values: [{'Pclass': 3, 'Sex': 1, 'Age': 25, 'SibSp': 0}]
+
+Test 25
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Prediction: 0
+Allowed predictions: [0, 1]
+
+Test 26
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Decision Tree model: DecisionTreeClassifier
+Accuracy: 0.8101
+Prediction count: 179
+
+Test 27
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+KNN model: KNeighborsClassifier
+Accuracy: 0.7821
+Prediction count: 179
+
+Test 28
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Expected features: ['Pclass', 'Sex', 'Age', 'SibSp']
+Actual features: ['Pclass', 'Sex', 'Age', 'SibSp']
+
+Test 29
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Dataset path: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+X_train shape: (712, 4)
+X_test shape: (179, 4)
+y_train shape: (712,)
+y_test shape: (179,)
+Sex classes: ['female', 'male']
+
+Test 30
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Feature count: 4
+Importance count: 4
+Importance values: [('Sex', np.float64(0.6035413044274122)), ('Pclass', np.float64(0.2149289338803434)), ('Age', np.float64(0.11297321473102549)), ('SibSp', np.float64(0.06855654696121885))]
+
+Test 31
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Importance count: 4
+Importance values: [('Sex', np.float64(0.12737430167597763)), ('Pclass', np.float64(0.094413407821229)), ('Age', np.float64(0.06759776536312846)), ('SibSp', np.float64(0.03463687150837984))]
+Formatted importance: Sex: 13%  |  Pclass: 9%  |  Age: 7%  |  SibSp: 3%
+
+Test 32
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Project root: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks
+Data directory: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data
+Titanic dataset: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+Dataset exists: True
+
+Test 33
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Passenger shape: (1, 4)
+Passenger columns: ['Pclass', 'Sex', 'Age', 'SibSp']
+Passenger values: [{'Pclass': 3, 'Sex': 1, 'Age': 25, 'SibSp': 0}]
+
+Test 34
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Prediction: 0
+Allowed predictions: [0, 1]
+
+Test 35
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+Decision Tree model: DecisionTreeClassifier
+Accuracy: 0.8101
+Prediction count: 179
+
+Test 36
+Date: 04/25/2026
+Time: 07:43
+Passed: Yes
+Failed: No
+
+Results:
+KNN model: KNeighborsClassifier
+Accuracy: 0.7821
+Prediction count: 179
+
+Test 37
+Date: 04/25/2026
+Time: 07:47
+Passed: Yes
+Failed: No
+
+Results:
+Expected features: ['Pclass', 'Sex', 'Age', 'SibSp']
+Actual features: ['Pclass', 'Sex', 'Age', 'SibSp']
+
+Test 38
+Date: 04/25/2026
+Time: 07:47
+Passed: Yes
+Failed: No
+
+Results:
+Dataset path: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+X_train shape: (712, 4)
+X_test shape: (179, 4)
+y_train shape: (712,)
+y_test shape: (179,)
+Sex classes: ['female', 'male']
+
+Test 39
+Date: 04/25/2026
+Time: 07:47
+Passed: Yes
+Failed: No
+
+Results:
+Feature count: 4
+Importance count: 4
+Importance values: [('Sex', np.float64(0.6035413044274122)), ('Pclass', np.float64(0.2149289338803434)), ('Age', np.float64(0.11297321473102549)), ('SibSp', np.float64(0.06855654696121885))]
+
+Test 40
+Date: 04/25/2026
+Time: 07:47
+Passed: Yes
+Failed: No
+
+Results:
+Importance count: 4
+Importance values: [('Sex', np.float64(0.12737430167597763)), ('Pclass', np.float64(0.094413407821229)), ('Age', np.float64(0.06759776536312846)), ('SibSp', np.float64(0.03463687150837984))]
+Formatted importance: Sex: 13%  |  Pclass: 9%  |  Age: 7%  |  SibSp: 3%
+
+Test 41
+Date: 04/25/2026
+Time: 07:47
+Passed: Yes
+Failed: No
+
+Results:
+Project root: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks
+Data directory: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data
+Titanic dataset: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+Dataset exists: True
+
+Test 42
+Date: 04/25/2026
+Time: 07:47
+Passed: Yes
+Failed: No
+
+Results:
+Passenger shape: (1, 4)
+Passenger columns: ['Pclass', 'Sex', 'Age', 'SibSp']
+Passenger values: [{'Pclass': 3, 'Sex': 1, 'Age': 25, 'SibSp': 0}]
+
+Test 43
+Date: 04/25/2026
+Time: 07:47
+Passed: Yes
+Failed: No
+
+Results:
+Prediction: 0
+Allowed predictions: [0, 1]
+
+Test 44
+Date: 04/25/2026
+Time: 07:47
+Passed: Yes
+Failed: No
+
+Results:
+Decision Tree model: DecisionTreeClassifier
+Accuracy: 0.8101
+Prediction count: 179
+
+Test 45
+Date: 04/25/2026
+Time: 07:47
+Passed: Yes
+Failed: No
+
+Results:
+KNN model: KNeighborsClassifier
+Accuracy: 0.7821
+Prediction count: 179
+
+Test 46
+Date: 04/25/2026
+Time: 09:31
+Passed: Yes
+Failed: No
+
+Results:
+Expected features: ['Pclass', 'Sex', 'Age', 'SibSp']
+Actual features: ['Pclass', 'Sex', 'Age', 'SibSp']
+
+Test 47
+Date: 04/25/2026
+Time: 09:31
+Passed: Yes
+Failed: No
+
+Results:
+Dataset path: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+X_train shape: (712, 4)
+X_test shape: (179, 4)
+y_train shape: (712,)
+y_test shape: (179,)
+Sex classes: ['female', 'male']
+
+Test 48
+Date: 04/25/2026
+Time: 09:31
+Passed: Yes
+Failed: No
+
+Results:
+Feature count: 4
+Importance count: 4
+Importance values: [('Sex', np.float64(0.6035413044274122)), ('Pclass', np.float64(0.2149289338803434)), ('Age', np.float64(0.11297321473102549)), ('SibSp', np.float64(0.06855654696121885))]
+
+Test 49
+Date: 04/25/2026
+Time: 09:31
+Passed: Yes
+Failed: No
+
+Results:
+Importance count: 4
+Importance values: [('Sex', np.float64(0.12737430167597763)), ('Pclass', np.float64(0.094413407821229)), ('Age', np.float64(0.06759776536312846)), ('SibSp', np.float64(0.03463687150837984))]
+Formatted importance: Sex: 13%  |  Pclass: 9%  |  Age: 7%  |  SibSp: 3%
+
+Test 50
+Date: 04/25/2026
+Time: 09:31
+Passed: Yes
+Failed: No
+
+Results:
+Project root: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks
+Data directory: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data
+Titanic dataset: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+Dataset exists: True
+
+Test 51
+Date: 04/25/2026
+Time: 09:31
+Passed: Yes
+Failed: No
+
+Results:
+Passenger shape: (1, 4)
+Passenger columns: ['Pclass', 'Sex', 'Age', 'SibSp']
+Passenger values: [{'Pclass': 3, 'Sex': 1, 'Age': 25, 'SibSp': 0}]
+
+Test 52
+Date: 04/25/2026
+Time: 09:31
+Passed: Yes
+Failed: No
+
+Results:
+Prediction: 0
+Allowed predictions: [0, 1]
+
+Test 53
+Date: 04/25/2026
+Time: 09:31
+Passed: Yes
+Failed: No
+
+Results:
+Decision Tree model: DecisionTreeClassifier
+Accuracy: 0.8101
+Prediction count: 179
+
+Test 54
+Date: 04/25/2026
+Time: 09:31
+Passed: Yes
+Failed: No
+
+Results:
+KNN model: KNeighborsClassifier
+Accuracy: 0.7821
+Prediction count: 179
+
+Test 55
+Date: 04/25/2026
+Time: 10:02
+Passed: Yes
+Failed: No
+
+Results:
+Expected features: ['Pclass', 'Sex', 'Age', 'SibSp']
+Actual features: ['Pclass', 'Sex', 'Age', 'SibSp']
+
+Test 56
+Date: 04/25/2026
+Time: 10:02
+Passed: Yes
+Failed: No
+
+Results:
+Dataset path: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+X_train shape: (712, 4)
+X_test shape: (179, 4)
+y_train shape: (712,)
+y_test shape: (179,)
+Sex classes: ['female', 'male']
+
+Test 57
+Date: 04/25/2026
+Time: 10:02
+Passed: Yes
+Failed: No
+
+Results:
+Feature count: 4
+Importance count: 4
+Importance values: [('Sex', np.float64(0.6035413044274122)), ('Pclass', np.float64(0.2149289338803434)), ('Age', np.float64(0.11297321473102549)), ('SibSp', np.float64(0.06855654696121885))]
+
+Test 58
+Date: 04/25/2026
+Time: 10:02
+Passed: Yes
+Failed: No
+
+Results:
+Importance count: 4
+Importance values: [('Sex', np.float64(0.12737430167597763)), ('Pclass', np.float64(0.094413407821229)), ('Age', np.float64(0.06759776536312846)), ('SibSp', np.float64(0.03463687150837984))]
+Formatted importance: Sex: 13%  |  Pclass: 9%  |  Age: 7%  |  SibSp: 3%
+
+Test 59
+Date: 04/25/2026
+Time: 10:02
+Passed: Yes
+Failed: No
+
+Results:
+Project root: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks
+Data directory: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data
+Titanic dataset: C:\Users\micha\OneDrive\Documents\UAT_Assignments\Gen_Ed\Computer Science\AI\ML\EncodingNeuralNetworks\src\data\raw\Titanic-Dataset.csv
+Dataset exists: True
+
+Test 60
+Date: 04/25/2026
+Time: 10:02
+Passed: Yes
+Failed: No
+
+Results:
+Passenger shape: (1, 4)
+Passenger columns: ['Pclass', 'Sex', 'Age', 'SibSp']
+Passenger values: [{'Pclass': 3, 'Sex': 1, 'Age': 25, 'SibSp': 0}]
+
+Test 61
+Date: 04/25/2026
+Time: 10:02
+Passed: Yes
+Failed: No
+
+Results:
+Prediction: 0
+Allowed predictions: [0, 1]
+
+Test 62
+Date: 04/25/2026
+Time: 10:02
+Passed: Yes
+Failed: No
+
+Results:
+Decision Tree model: DecisionTreeClassifier
+Accuracy: 0.8101
+Prediction count: 179
+
+Test 63
+Date: 04/25/2026
+Time: 10:02
+Passed: Yes
+Failed: No
+
+Results:
+KNN model: KNeighborsClassifier
+Accuracy: 0.7821
+Prediction count: 179
+
